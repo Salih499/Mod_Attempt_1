@@ -57,6 +57,7 @@ public class TutorialMod
     {
     if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
         event.accept(ModItems.EREN);
+        event.accept(ModItems.EDA);
     }
     }
 
